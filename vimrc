@@ -17,7 +17,7 @@ call vundle#begin()
 
 "Let Vundle manage Vundle
 "required
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 "my bundles here:
 Plugin 'tpope/vim-fugitive'
@@ -32,7 +32,9 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 
 Plugin 'thoughtbot/vim-rspec'
-Plugin 'benmills/vimux'
+Plugin 'christoomey/vim-tmux-runner'
+"Plugin 'benmills/vimux'
+"Plugin 'jgdavey/tslime.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'scrooloose/nerdcommenter.git'
 
@@ -66,7 +68,7 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>* :call RunAllSpecs()<CR>
-let g:rspec_command = 'call VimuxRunCommand("bundle exec rspec {spec}\n")'
+"let g:rspec_command = 'call VimuxRunCommand("bundle exec rspec {spec}\n")'
 
 "disable folding by default
 set nofoldenable
