@@ -59,13 +59,19 @@ let g:fakeclip_terminal_multiplexer_type = 'tmux'
 
 filetype plugin indent on  "required!
 
+"tag settings for easytags that creates
+"project specific ctag files
+set tags=./tags
+let g:easytags_dynamic_files = 2
+set complete=.,b,u,]
+
 
 "Rspec.vim mappings
+let g:rspec_command = "VtrSendCommandToRunner! bundle exec rspec {spec}\n"
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>* :call RunAllSpecs()<CR>
-let g:rspec_command = "VtrSendCommandToRunner! bundle exec rspec {spec}\n"
 "specifies where the pane will appear (Vtr)
 let g:VtrOrientation = "h"
 "how much the new pane occupies
