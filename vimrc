@@ -20,6 +20,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 "my bundles here:
+Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-rbenv'
@@ -33,10 +34,9 @@ Plugin 'xolox/vim-easytags'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'christoomey/vim-tmux-runner'
 Plugin 'benmills/vimux'
-"Plugin 'jgdavey/tslime.vim'
+""Plugin 'jgdavey/tslime.vim'
 Plugin 'scrooloose/nerdcommenter.git'
 Plugin 'justinmk/vim-sneak'
-Plugin 'tpope/vim-rails.git'
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
@@ -75,7 +75,7 @@ map <Leader>* :call RunAllSpecs()<CR>
 "specifies where the pane will appear (Vtr)
 let g:VtrOrientation = "h"
 "how much the new pane occupies
-let g:VtrPercentage = 45
+let g:VtrPercentage = 35
 
 " opens the quickfix file and window
 :map <leader>q :cg quickfix.out \| cwindow<CR>
@@ -169,6 +169,9 @@ set bg=light
 colorscheme desert
 highlight NonText guibg=#060606
 
+"better instapaste (thanks orenstein!)
+map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
+
 set cursorline
 "hi CursorLine term=bold cterm=bold guibg=Grey40
 hi CursorLine term=bold guibg=#222222 guibg=Grey40
@@ -221,10 +224,32 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 
 "move around your splits with ctrl hjkl which b/c capslock is assigned to ctrl
 "works well
-"nnoremap <C-h> <C-w>h
-"nnoremap <C-j> <C-w>j
-"nnoremap <C-k> <C-w>k
-"nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"this is the section for bfa_it to copy in order to make 
+"everything work in both tmux and tmate:  add the following
+"to your `~/.tmux.conf`:
+"
+"``` tmux
+"set-environment -g TMUX_COMMAND tmux
+"```
+"
+"and this to your `~/.tmate.conf`:
+"
+"``` tmux
+"set-environment -g TMUX_COMMAND tmate
+"```
+"
+"and this to your `~/.vimrc`:
+"
+"``` vim
+let g:tmux_navigator_command = $TMUX_COMMAND
+"```
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 au BufReadPost *.dwt set syntax=html
 
