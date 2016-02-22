@@ -46,8 +46,10 @@ Plugin 'pdbradley/vim-tmux-runner'
 Plugin 'christoomey/vim-tmux-navigator'
 
 "all this stuff below is for snippets
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "honza/vim-snippets"
 
 call vundle#end()
 filetype plugin indent on
@@ -67,8 +69,8 @@ set complete=.,b,u,]
 
 
 "Rspec.vim mappings
-let g:rspec_command = "VtrSendCommandToRunner bundle exec spring rspec {spec}\n"
-"let g:rspec_command = "VtrSendCommandToRunner bundle exec spring rspec --format progress {spec}\n"
+let g:rspec_command = "VtrSendCommandToRunner bundle exec rspec {spec}\n"
+"let g:rspec_command = "VtrSendCommandToRunner bundle exec rspec --format progress {spec}\n"
 
 " opens the quickfix file and window
 :map <leader>j :cg quickfix.out \| cwindow<CR>
@@ -292,9 +294,6 @@ let g:VtrPercentage = 35
 let g:VtrClearOnReattach = 0
 
 map <Leader>x :VtrSendFile<CR>
-
-" opens the quickfix file and window
-:map <leader>q :cg quickfix.out \| cwindow<CR>
 
 "disable folding by default
 set nofoldenable
