@@ -15,6 +15,8 @@ set noswapfile
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+
 "Let Vundle manage Vundle
 "required
 Plugin 'gmarik/Vundle.vim'
@@ -44,6 +46,7 @@ Plugin 'kana/vim-fakeclip'
 Plugin 'benmills/vimux'
 Plugin 'pdbradley/vim-tmux-runner'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'danro/rename.vim'
 
 "all this stuff below is for snippets
 Bundle "MarcWeber/vim-addon-mw-utils"
@@ -205,6 +208,8 @@ set noesckeys
 
 " cp copies and pastes the present paragraph (method)
 nnoremap cp yap<S-}>p
+
+nnoremap <Leader>N :NERDTreeFind<CR>
 
 " formats the current paragraph
 nnoremap <leader>f =ip

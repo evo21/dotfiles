@@ -1,0 +1,110 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+%%	/Users/evankoch/dotfiles/vimrc	/^cnoremap <expr> %% expand('%:h').'\/'$/;"	m	language:Vim
+%%	/Users/evankoch/dotfiles/vimrc	/^cnoremap <expr> %% expand('%:h').'\/'$/;"	m	language:Vim
+<C-c>	/Users/evankoch/dotfiles/vimrc	/^vmap <C-c> :w !pbcopy<CR><CR>$/;"	m	language:Vim
+<C-c>	/Users/evankoch/dotfiles/vimrc	/^vmap <C-c> :w !pbcopy<CR><CR>$/;"	m	language:Vim
+<C-h>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-h> <C-w>h$/;"	m	language:Vim
+<C-h>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-h> <C-w>h$/;"	m	language:Vim
+<C-j>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-j> <C-w>j$/;"	m	language:Vim
+<C-j>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-j> <C-w>j$/;"	m	language:Vim
+<C-k>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-k> <C-w>k$/;"	m	language:Vim
+<C-k>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-k> <C-w>k$/;"	m	language:Vim
+<C-l>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-l> <C-w>l$/;"	m	language:Vim
+<C-l>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <C-l> <C-w>l$/;"	m	language:Vim
+<C-t>	/Users/evankoch/dotfiles/vimrc	/^map <C-t> <esc>:tabnew<CR>$/;"	m	language:Vim
+<C-t>	/Users/evankoch/dotfiles/vimrc	/^map <C-t> <esc>:tabnew<CR>$/;"	m	language:Vim
+<C-x>	/Users/evankoch/dotfiles/vimrc	/^vmap <C-x> :!pbcopy<CR>$/;"	m	language:Vim
+<C-x>	/Users/evankoch/dotfiles/vimrc	/^vmap <C-x> :!pbcopy<CR>$/;"	m	language:Vim
+<Leader>*	/Users/evankoch/dotfiles/vimrc	/^map <Leader>* :call RunAllSpecs()<CR>$/;"	m	language:Vim
+<leader><leader>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader><leader> <c-^>$/;"	m	language:Vim
+<leader><leader>	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader><leader> <c-^>$/;"	m	language:Vim
+<leader>a	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>a :Ack$/;"	m	language:Vim
+<leader>a	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>a :Ack$/;"	m	language:Vim
+<Leader>ann	/Users/evankoch/dotfiles/vimrc	/^map <Leader>ann :sp ~\/Dropbox\/work\/notes\/annoyances-notes.txt<cr>$/;"	m	language:Vim
+<Leader>bb	/Users/evankoch/dotfiles/vimrc	/^map <Leader>bb :!bundle install<cr>$/;"	m	language:Vim
+<Leader>bb	/Users/evankoch/dotfiles/vimrc	/^map <Leader>bb :!bundle install<cr>$/;"	m	language:Vim
+<Leader>c	/Users/evankoch/dotfiles/vimrc	/^map <Leader>c :Rcontroller $/;"	m	language:Vim
+<Leader>c	/Users/evankoch/dotfiles/vimrc	/^map <Leader>c :Rcontroller $/;"	m	language:Vim
+<Leader>dr	/Users/evankoch/dotfiles/vimrc	/^map <Leader>dr :e ~\/Dropbox<cr>$/;"	m	language:Vim
+<Leader>dr	/Users/evankoch/dotfiles/vimrc	/^map <Leader>dr :e ~\/Dropbox<cr>$/;"	m	language:Vim
+<leader>e	/Users/evankoch/dotfiles/vimrc	/^map <leader>e :edit %%$/;"	m	language:Vim
+<leader>e	/Users/evankoch/dotfiles/vimrc	/^map <leader>e :edit %%$/;"	m	language:Vim
+<leader>f	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>f =ip$/;"	m	language:Vim
+<leader>gc	/Users/evankoch/dotfiles/vimrc	/^map <leader>gc :CtrlP app\/controllers<cr>$/;"	m	language:Vim
+<leader>gc	/Users/evankoch/dotfiles/vimrc	/^map <leader>gc :CtrlP app\/controllers<cr>$/;"	m	language:Vim
+<leader>gf	/Users/evankoch/dotfiles/vimrc	/^map <leader>gf :CtrlP spec\/factories<cr>$/;"	m	language:Vim
+<leader>gf	/Users/evankoch/dotfiles/vimrc	/^map <leader>gf :CtrlP spec\/factories<cr>$/;"	m	language:Vim
+<leader>gh	/Users/evankoch/dotfiles/vimrc	/^map <leader>gh :CtrlPT app\/helpers<cr>$/;"	m	language:Vim
+<leader>gh	/Users/evankoch/dotfiles/vimrc	/^map <leader>gh :CtrlPT app\/helpers<cr>$/;"	m	language:Vim
+<leader>gj	/Users/evankoch/dotfiles/vimrc	/^map <leader>gj :CtrlP app\/assets\/javascripts<cr>$/;"	m	language:Vim
+<leader>gl	/Users/evankoch/dotfiles/vimrc	/^map <leader>gl :CtrlP lib<cr>$/;"	m	language:Vim
+<leader>gl	/Users/evankoch/dotfiles/vimrc	/^map <leader>gl :CtrlP lib<cr>$/;"	m	language:Vim
+<leader>gm	/Users/evankoch/dotfiles/vimrc	/^map <leader>gm :CtrlP app\/models<cr>$/;"	m	language:Vim
+<leader>gm	/Users/evankoch/dotfiles/vimrc	/^map <leader>gm :CtrlP app\/models<cr>$/;"	m	language:Vim
+<Leader>gs	/Users/evankoch/dotfiles/vimrc	/^map <Leader>gs :Gstatus<CR>$/;"	m	language:Vim
+<Leader>gs	/Users/evankoch/dotfiles/vimrc	/^map <Leader>gs :Gstatus<CR>$/;"	m	language:Vim
+<leader>gsc	/Users/evankoch/dotfiles/vimrc	/^map <leader>gsc :CtrlP spec\/controllers<cr>$/;"	m	language:Vim
+<leader>gsm	/Users/evankoch/dotfiles/vimrc	/^map <leader>gsm :CtrlP spec\/models<cr>$/;"	m	language:Vim
+<leader>gv	/Users/evankoch/dotfiles/vimrc	/^map <leader>gv :CtrlP app\/views<cr>$/;"	m	language:Vim
+<leader>gv	/Users/evankoch/dotfiles/vimrc	/^map <leader>gv :CtrlP app\/views<cr>$/;"	m	language:Vim
+<leader>h	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>h <C-w>s<C-w>j$/;"	m	language:Vim
+<leader>h	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>h <C-w>s<C-w>j$/;"	m	language:Vim
+<Leader>l	/Users/evankoch/dotfiles/vimrc	/^map <Leader>l :call RunLastSpec()<CR>$/;"	m	language:Vim
+<Leader>m	/Users/evankoch/dotfiles/vimrc	/^map <Leader>m :Rmodel $/;"	m	language:Vim
+<Leader>m	/Users/evankoch/dotfiles/vimrc	/^map <Leader>m :Rmodel $/;"	m	language:Vim
+<leader>n	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>n :NERDTreeToggle<CR>$/;"	m	language:Vim
+<leader>n	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>n :NERDTreeToggle<CR>$/;"	m	language:Vim
+<Leader>p	/Users/evankoch/dotfiles/vimrc	/^map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>$/;"	m	language:Vim
+<Leader>p	/Users/evankoch/dotfiles/vimrc	/^map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>$/;"	m	language:Vim
+<Leader>p	/Users/evankoch/dotfiles/vimrc	/^map <Leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>$/;"	m	language:Vim
+<Leader>pa	/Users/evankoch/dotfiles/vimrc	/^map <Leader>pa  :sp ~\/Dropbox\/work\/notes\/annoyances-notes.txt<cr>$/;"	m	language:Vim
+<Leader>pn	/Users/evankoch/dotfiles/vimrc	/^map <Leader>pn :sp ~\/Dropbox\/work\/notes\/project-notes.txt<cr>$/;"	m	language:Vim
+<Leader>pn	/Users/evankoch/dotfiles/vimrc	/^map <Leader>pn :sp ~\/Dropbox\/work\/notes\/project-notes.txt<cr>$/;"	m	language:Vim
+<Leader>pt	/Users/evankoch/dotfiles/vimrc	/^map <Leader>pt :sp ~\/Dropbox\/work\/notes\/todo.txt<cr>$/;"	m	language:Vim
+<leader>q	/Users/evankoch/dotfiles/vimrc	/^nnoremap  <leader>q :q<cr>$/;"	m	language:Vim
+<Leader>r	/Users/evankoch/dotfiles/vimrc	/^map <Leader>r :source $MYVIMRC<cr>$/;"	m	language:Vim
+<Leader>s	/Users/evankoch/dotfiles/vimrc	/^map <Leader>s :call RunNearestSpec()<CR>$/;"	m	language:Vim
+<Leader>sc	/Users/evankoch/dotfiles/vimrc	/^map <Leader>sc :RScontroller $/;"	m	language:Vim
+<Leader>sm	/Users/evankoch/dotfiles/vimrc	/^map <Leader>sm :RSmodel $/;"	m	language:Vim
+<Leader>t	/Users/evankoch/dotfiles/vimrc	/^map <Leader>t :call RunCurrentSpecFile()<CR>$/;"	m	language:Vim
+<Leader>td	/Users/evankoch/dotfiles/vimrc	/^map <Leader>td :sp ~\/Dropbox\/work\/notes\/todo.txt<cr>$/;"	m	language:Vim
+<leader>v	/Users/evankoch/dotfiles/vimrc	/^map <leader>v :view %%$/;"	m	language:Vim
+<leader>v	/Users/evankoch/dotfiles/vimrc	/^map <leader>v :view %%$/;"	m	language:Vim
+<Leader>vc	/Users/evankoch/dotfiles/vimrc	/^map <Leader>vc :RVcontroller $/;"	m	language:Vim
+<Leader>vc	/Users/evankoch/dotfiles/vimrc	/^map <Leader>vc :RVcontroller $/;"	m	language:Vim
+<Leader>vimrc	/Users/evankoch/dotfiles/vimrc	/^map <Leader>vimrc :sp $MYVIMRC<cr>$/;"	m	language:Vim
+<Leader>vm	/Users/evankoch/dotfiles/vimrc	/^map <Leader>vm :RVmodel $/;"	m	language:Vim
+<Leader>vm	/Users/evankoch/dotfiles/vimrc	/^map <Leader>vm :RVmodel $/;"	m	language:Vim
+<leader>w	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>w <C-w>v<C-w>l$/;"	m	language:Vim
+<leader>w	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>w <C-w>v<C-w>l$/;"	m	language:Vim
+<Leader>x	/Users/evankoch/dotfiles/vimrc	/^map <Leader>x :VtrSendFile<CR>$/;"	m	language:Vim
+<leader>y	/Users/evankoch/dotfiles/vimrc	/^map <leader>y "*y$/;"	m	language:Vim
+<leader>y	/Users/evankoch/dotfiles/vimrc	/^map <leader>y "*y$/;"	m	language:Vim
+<leader>z	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>z :ZoomWin<CR>$/;"	m	language:Vim
+<leader>z	/Users/evankoch/dotfiles/vimrc	/^nnoremap <leader>z :ZoomWin<CR>$/;"	m	language:Vim
+<S-h>	/Users/evankoch/dotfiles/vimrc	/^noremap <S-h> gT$/;"	m	language:Vim
+<S-l>	/Users/evankoch/dotfiles/vimrc	/^noremap <S-l> gt$/;"	m	language:Vim
+cp	/Users/evankoch/dotfiles/vimrc	/^nnoremap cp yap<S-}>p$/;"	m	language:Vim
+CursorLineOnlyInActiveWindow	/Users/evankoch/dotfiles/vimrc	/^augroup CursorLineOnlyInActiveWindow$/;"	a	language:Vim
+CursorLineOnlyInActiveWindow	/Users/evankoch/dotfiles/vimrc	/^augroup CursorLineOnlyInActiveWindow$/;"	a	language:Vim
+E	/Users/evankoch/dotfiles/vimrc	/^command -nargs=1 E execute('silent! !mkdir -p "$(dirname "<args>")"') <Bar> e <args>$/;"	c	language:Vim
+g:ackprg	/Users/evankoch/dotfiles/vimrc	/^let g:ackprg = 'ag -i --nogroup --nocolor --column --ignore-dir log --ignore-dir versions'$/;"	v	language:Vim
+g:ackprg	/Users/evankoch/dotfiles/vimrc	/^let g:ackprg = 'ag -i --nogroup --nocolor --column --ignore-dir log --ignore-dir versions'$/;"	v	language:Vim
+g:ctrlp_user_command	/Users/evankoch/dotfiles/vimrc	/^    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'$/;"	v	language:Vim
+g:ctrlp_user_command	/Users/evankoch/dotfiles/vimrc	/^    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'$/;"	v	language:Vim
+g:ctrlp_use_caching	/Users/evankoch/dotfiles/vimrc	/^    let g:ctrlp_use_caching = 0$/;"	v	language:Vim
+g:ctrlp_use_caching	/Users/evankoch/dotfiles/vimrc	/^    let g:ctrlp_use_caching = 0$/;"	v	language:Vim
+g:easytags_dynamic_files	/Users/evankoch/dotfiles/vimrc	/^let g:easytags_dynamic_files = 2$/;"	v	language:Vim
+g:fakeclip_terminal_multiplexer_type	/Users/evankoch/dotfiles/vimrc	/^let g:fakeclip_terminal_multiplexer_type = 'tmux'$/;"	v	language:Vim
+g:rspec_command	/Users/evankoch/dotfiles/vimrc	/^let g:rspec_command = "VtrSendCommandToRunner bundle exec rspec {spec}\\n"$/;"	v	language:Vim
+g:snippetsEmu_key	/Users/evankoch/dotfiles/vimrc	/^let g:snippetsEmu_key = "<S-Tab>"$/;"	v	language:Vim
+g:snippetsEmu_key	/Users/evankoch/dotfiles/vimrc	/^let g:snippetsEmu_key = "<S-Tab>"$/;"	v	language:Vim
+g:tmux_navigator_command	/Users/evankoch/dotfiles/vimrc	/^let g:tmux_navigator_command = $TMUX_COMMAND$/;"	v	language:Vim
+g:VtrClearOnReattach	/Users/evankoch/dotfiles/vimrc	/^let g:VtrClearOnReattach = 0$/;"	v	language:Vim
+g:VtrOrientation	/Users/evankoch/dotfiles/vimrc	/^let g:VtrOrientation = "h"$/;"	v	language:Vim
+g:VtrPercentage	/Users/evankoch/dotfiles/vimrc	/^let g:VtrPercentage = 35$/;"	v	language:Vim
+jj	/Users/evankoch/dotfiles/vimrc	/^inoremap jj <ESC>$/;"	m	language:Vim
+jj	/Users/evankoch/dotfiles/vimrc	/^inoremap jj <ESC>$/;"	m	language:Vim
+mapleader	/Users/evankoch/dotfiles/vimrc	/^let mapleader = " "$/;"	v	language:Vim
+Q	/Users/evankoch/dotfiles/vimrc	/^nnoremap Q @q$/;"	m	language:Vim
+Q	/Users/evankoch/dotfiles/vimrc	/^vnoremap Q :norm @q<cr>$/;"	m	language:Vim
